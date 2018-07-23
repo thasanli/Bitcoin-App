@@ -6,38 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <title>BitCoin</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <table class="bitTable">
-        <tr>
-            <th>
-            <th>Bitcoin</th>
-            <th>BTC/USD</th>
-            <th>BTC/EUR</th>
-            <th>BTC/GBP</th>
-            <th>BTC/JPY</th>
-            <th>BTC/CAD</th>
-        </tr>
-        <tr>
-            <th id="place">Prices</th>
-            <th id="place"></th>
-            <th id="place"></th>
-            <th id="place"></th>
-            <th id="place"></th>
-            <th id="place"></th>
-            <th id="place"></th>
-        </tr>
-    </table>
+    <div class="container">
+        <div class="rows row1">
+            <div class="cols"></div>
+            <div class="cols">BitCoin</div>
+            <div class="cols">BTC/USD</div>
+            <div class="cols">BTC/EUR</div>
+            <div class="cols">BTC/GBP</div>
+            <div class="cols">BTC/JPY</div>
+            <div class="cols">BTC/CAD</div>
+        </div>
+        <div class="rows row2">
+            <div class="cols">prices</div>
+            <div class="cols"></div>
+            <div class="cols"></div>
+            <div class="cols"></div>
+            <div class="cols"></div>
+            <div class="cols"></div>
+            <div class="cols"></div>
+        </div>
+    </div>
 
-    <button class="refreshBtn">Refresh</button>
-    <button class="newPriceBtn">Add Price</button>
-
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+    <button class="getNewPrices">Get New Prices</button>
+    <button class="newPrice">Add Price</button>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 

@@ -1,13 +1,31 @@
-body{
-    margin: 0;
+body {
     padding: 0;
+    margin: 0;
     text-align: center;
 }
-table, th, td{
-    border: 1px solid black;
-    border-collapse: collapse
+
+.container{
+    max-width: 50vw;
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
-th{
-    width: 7vw;
-    height: 2vw
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    min-height: 4vh;
+
+}
+
+.cols {
+    border: 1px solid black;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.getNewPrices{
+    margin: 15px;
 }
